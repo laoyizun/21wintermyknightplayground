@@ -5,7 +5,9 @@
     "dependencies": {
         "device": "*",
         "maze-extension": "github:cubicbird/maze-extension#v0.1.11",
-        "cubicbird-game-jam": "github:felixtsu/cubicbird-game-jam#v0.0.11"
+        "cubicbird-game-jam": "github:felixtsu/cubicbird-game-jam#v0.0.11",
+        "[youkun]MyKnight.Playground day1Dlc": "pub:45150-00346-94685-76155",
+        "[ziheng]MyKnight.Playground Day1Dlc": "pub:44820-28214-50628-95503"
     },
     "files": [
         "main.blocks",

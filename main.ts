@@ -710,6 +710,9 @@ Weapon.setWeapons("武器", function () {
     })
 })
 cubicbird_gamejam_titlescreen.drawIntro(" my knight 21winter ")
+//DLC
+myknight_ziheng_dlc.zihengDay1()
+myknight_youkun_dlc.youkunDay1()
 playground_helpers.startPlayground()
 Bullet.bulletOverlap("手枪子弹", Bullet.overlapKind.two, function (projectile, otherSprite) {
     Bullet.setHp(otherSprite, -100)
