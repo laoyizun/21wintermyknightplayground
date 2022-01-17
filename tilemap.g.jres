@@ -14,6 +14,28 @@
         ],
         "displayName": "辰天草原地图"
     },
+        "周政亨法术迷宫": {
+        "id": "周政亨法术迷宫",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxNDAwMTkwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDEwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDMwMDAwMDAwMDA1MGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwZDA0MDAwMDAwMDAwNTBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwNDAwMDAwMDAwMDUwZDBkMGQwZDA5MGEwZDBkMGQwZDBkMGQwZDBkMDQwMDAwMDAwMDA1MGQwZDBkMGQwYzBiMGQwZDBkMGQwZDBkMGQwZDA0MDAwMDAwMDAwNTBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwNDAwMDAwMDAwMDUwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMDQwMDAwMDAwMDA1MGQwZDBkMGQwZDBkMGQwZDA5MGEwZDBkMGQwZDA0MDAwMDAwMDAwNTBkMGQwZDBkMGQwZDBkMGQwYzBiMGQwZDBkMGQwNDAwMDAwMDAwMDUwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMDQwMDAwMDAwMDA2MDcwNzA3MGEwZDBkMGQwZDA5MDcwNzA3MDcwNzA4MDAwMDAwMDAwMDAwMDAwMDA1MGQwZDBkMGQwNDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwNTBkMGQwZDBkMDQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDUwZDBkMGQwZDA0MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA1MGQwZDBkMGQwNDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwNTBkMGQwZDBkMDQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDUwZDBkMGQwZDA0MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA1MGQwZDBkMGQwNDAwMDAwMDAwMDAwMDAwMDAwMTAyMDIwMjAyMDIwYjBkMGQwZDBkMGMwMjAyMDIwMjAyMDIwMzAwMDUwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMDQwMDA1MGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwZDA0MDAwNTBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwNDAwMDUwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMGQwZDBkMDQwMDA2MDcwNzA3MDcwNzA3MDcwNzA3MDcwNzA3MDcwNzA3MDcwNzA4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMjIyMjIyMjIyMjIyMjIyMjAwMDAwMjAwMDAwMDAwMDAwMDIwMDAwMDAyMDAwMDAwMDAwMDAwMjAwMDAwMDIwMDIwMDIwMDAwMDAyMDAwMDAwMjAwMjAwMjAwMDAwMDIwMDAwMDAyMDAwMDAwMDAwMDAwMjAwMDAwMDIwMDAwMDAwMDAwMDAyMDAwMDAwMjAwMDAwMDIwMDIwMDIwMDAwMDAyMDAwMDAwMjAwMjAwMjAwMDAwMDIwMDAwMDAwMDAwMDAyMDAwMDAyMjIyMDIwMDIwMjIyMjIyMDAwMDAwMDAwMjAwMjAwMDAwMDAwMDAwMDAwMDAyMDAyMDAwMDAwMDAwMDAwMDAwMDIwMDIwMDAwMDAwMDAwMDAwMDAwMjAwMjAwMDAwMDAwMDAwMDAwMDAyMDAyMDAwMDAwMDAwMDAwMDAwMDIwMDIwMDAwMDAwMDAwMDAwMDAwMjAwMjAwMDAwMDAwMDIyMjIyMjAyMDAyMDIyMjIyMjAyMDIwMDAwMDAwMDAwMDAwMDAwMDIwMjAwMDAwMDAwMDAwMDAwMDAwMjAyMDAwMDAwMDAwMDAwMDAwMDAyMDIwMDAwMDAwMDAwMDAwMDAwMDIyMjIyMjIyMjIyMjIyMjIyMjIwMg==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.dungeon.greenOuterNorthWest",
+            "sprites.dungeon.greenOuterNorth0",
+            "sprites.dungeon.greenOuterNorthEast",
+            "sprites.dungeon.greenOuterEast0",
+            "sprites.dungeon.greenOuterWest0",
+            "sprites.dungeon.greenOuterSouthEast",
+            "sprites.dungeon.greenOuterSouth1",
+            "sprites.dungeon.greenOuterSouthWest",
+            "sprites.dungeon.greenInnerNorthWest",
+            "sprites.dungeon.greenInnerNorthEast",
+            "sprites.dungeon.greenInnerSouthEast",
+            "sprites.dungeon.greenInnerSouthWest",
+            "sprites.dungeon.collectibleInsignia"
+        ],
+        "displayName": "周政亨法术迷宫"
+    },
     "级别3": {
         "id": "级别3",
         "mimeType": "application/mkcd-tilemap",
