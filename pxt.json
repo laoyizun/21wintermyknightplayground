@@ -6,8 +6,10 @@
         "device": "*",
         "maze-extension": "github:cubicbird/maze-extension#v0.1.11",
         "cubicbird-game-jam": "github:felixtsu/cubicbird-game-jam#v0.0.11",
-        "[youkun]MyKnight.Playground day1Dlc": "pub:45150-00346-94685-76155",
-        "[ziheng]MyKnight.Playground Day1Dlc": "pub:44820-28214-50628-95503"
+        "[youkun]MyKnight.Playground.dlc2": "pub:30254-21846-07844-59960",
+        "[ziheng]MyKnight.Playground.dlc2": "pub:12359-92646-89307-33780",
+        "[zhengheng]MyKnight.Playground.dlc2": "pub:10824-62717-31029-27833",
+        "[chentian]MyKnight.Playground.dlc2": "pub:20729-59156-58836-59508"
     },
     "files": [
         "main.blocks",

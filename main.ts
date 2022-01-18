@@ -711,10 +711,10 @@ Weapon.setWeapons("武器", function () {
 })
 cubicbird_gamejam_titlescreen.drawIntro(" my knight 21winter ")
 //DLC
-myknight_ziheng_dlc.zihengDay1()
-myknight_youkun_dlc.youkunDay1()
-//myknight_zhengheng_dlc.zhenghengDay1()
-//myknight_chentian_dlc.chentianDay1()
+myknight_youkun_dlc.youkun()
+myknight_ziheng_dlc.ziheng()
+myknight_zhengheng_dlc.zhengheng()
+myknight_chentian_dlc.chentian()
 
 playground_helpers.startPlayground()
 Bullet.bulletOverlap("手枪子弹", Bullet.overlapKind.two, function (projectile, otherSprite) {
