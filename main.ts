@@ -710,17 +710,15 @@ Weapon.setWeapons("武器", function () {
     })
 })
 cubicbird_gamejam_titlescreen.drawIntro(" my knight 21winter ")
-//DLC
 myknight_youkun_dlc.youkun()
 myknight_ziheng_dlc.ziheng()
 myknight_zhengheng_dlc.zhengheng()
 myknight_chentian_dlc.chentian()
-
 playground_helpers.startPlayground()
+// otherSprite.say("不痛", 500)
+// Bullet.bulletOwn(projectile).say("打不动", 500)
 Bullet.bulletOverlap("手枪子弹", Bullet.overlapKind.two, function (projectile, otherSprite) {
     Bullet.setHp(otherSprite, -100)
-    otherSprite.say("不痛", 500)
-    Bullet.bulletOwn(projectile).say("打不动", 500)
 })
 Bullet.setProjectiles("弹射物", function () {
     Bullet.setProjectile(img`

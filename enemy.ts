@@ -1,5 +1,5 @@
 Bullet.bulletOverlap("幽灵粒子", Bullet.overlapKind.two, function (projectile, otherSprite) {
-    otherSprite.say("好痛", 500)
+    //otherSprite.say("好痛", 500)
     Bullet.setHp(otherSprite, -1)
 })
 
@@ -1093,25 +1093,25 @@ Enemy.setEnemy(img`
         ........................
         `])
     Enemy.addSKill(enemy, Enemy.sKind.skill, function (tempVar, sprite) {
-        playground_helpers.multishoot(sprite, 6, 0, 45, 0.2, "幽灵粒子", 75, 2, 0, 0)
-        playground_helpers.multishoot(sprite, 6, 45, 45, 0.2, "幽灵粒子", 60, 2, 0, 0)
+        playground_helpers.multishoot(sprite, 3, 0, 45, 0.2, "幽灵粒子", 75, 2, 0, 0)
+        playground_helpers.multishoot(sprite, 3, 45, 45, 0.2, "幽灵粒子", 60, 2, 0, 0)
     })
     Enemy.addSKill(enemy, Enemy.sKind.skill, function (tempVar, sprite) {
         playground_helpers.randomshoot(sprite, 2, -15, 15, 0.2, "瞄准幽灵粒子", 80, 6, 15, 95, 0)
     })
     Enemy.addSKill(enemy, Enemy.sKind.skill, function (tempVar, sprite) {
-        playground_helpers.randomshoot(sprite, 8, 0, 15, 0.5, "追踪幽灵粒子", 55, 2, 360, 65, 0)
+        playground_helpers.randomshoot(sprite, 4, 0, 15, 0.5, "追踪幽灵粒子", 55, 2, 360, 65, 0)
     })
     Enemy.addSKill(enemy, Enemy.sKind.skill, function (tempVar, sprite) {
-        playground_helpers.randomshoot(sprite, 8, 0, 15, 0.2, "地雷幽灵粒子", 0, 1, 360, 0, 30)
+        playground_helpers.randomshoot(sprite, 4, 0, 15, 0.2, "地雷幽灵粒子", 0, 1, 360, 0, 30)
     })
     Enemy.addSKill(enemy, Enemy.sKind.skill, function (tempVar, sprite) {
-        playground_helpers.multishoot(sprite, 6, 0, 15, 0.1, "空爆幽灵粒子", 75, 4, 0, 0)
+        playground_helpers.multishoot(sprite, 3, 0, 15, 0.1, "空爆幽灵粒子", 75, 4, 0, 0)
     })
     Enemy.addSKill(enemy, Enemy.sKind.skill, function (tempVar, sprite) {
-        playground_helpers.randomshoot(sprite, 6, -5, 15, 0.2, "幽灵粒子", 80, 24, 5, 95, 0)
+        playground_helpers.randomshoot(sprite, 3, -5, 15, 0.2, "幽灵粒子", 80, 24, 5, 95, 0)
         Helper.after(1, function () {
-            playground_helpers.randomshoot(sprite, 6, -5, -15, 0.2, "幽灵粒子", 80, 24, 5, 95, 0)
+            playground_helpers.randomshoot(sprite, 3, -5, -15, 0.2, "幽灵粒子", 80, 24, 5, 95, 0)
         })
     })
     Enemy.addSKill(enemy, Enemy.sKind.spoils, function (tempVar, sprite) {

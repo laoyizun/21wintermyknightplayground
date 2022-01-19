@@ -24,7 +24,7 @@ Enemy.setEnemy(img`
     ........................
     ........................
     ........................
-    `, "幽灵", function (enemy) {
+`, "幽灵", function (enemy) {
     Enemy.setEnemyAbility(enemy, Enemy.aKind.hp, 20)
     Player.setCharacterAnim(enemy, Character.dirKind.down, Character.animKind.walk, [img`
         ........................
@@ -962,7 +962,7 @@ Enemy.setEnemy(img`
         ........................
         ........................
         ........................
-        `,img`
+    `,img`
         ........................
         ........................
         ........................
@@ -1039,13 +1039,13 @@ Enemy.setEnemy(img`
         ........................
         `])
     Enemy.addSKill(enemy, Enemy.sKind.skill, function (tempVar, sprite) {
-        for (let index = 0; index < 2; index++) {
+        for (let index = 0; index < 1; index++) {
             playground_helpers.randomshoot(sprite, 2, -15, 15, 0.1, "幽灵粒子", 50, 3, 15, 75, 0)
         }
     })
     Enemy.addSKill(enemy, Enemy.sKind.skill, function (tempVar, sprite) {
-        playground_helpers.multishoot(sprite, 6, 0, 15, 0.1, "幽灵粒子", 75, 4, 0, 0)
-        playground_helpers.multishoot(sprite, 6, -15, -15, 0.1, "幽灵粒子", 75, 4, 0, 0)
+        playground_helpers.multishoot(sprite, 1, 0, 15, 0.1, "幽灵粒子", 75, 4, 0, 0)
+        playground_helpers.multishoot(sprite, 1, -15, -15, 0.1, "幽灵粒子", 75, 4, 0, 0)
     })
     Enemy.addSKill(enemy, Enemy.sKind.skill, function (tempVar, sprite) {
         playground_helpers.multishoot(sprite, 1, -5, 0, 0.1, "幽灵粒子", 75, 8, 0, 0)
@@ -1053,8 +1053,8 @@ Enemy.setEnemy(img`
         playground_helpers.multishoot(sprite, 1, 5, 0, 0.1, "幽灵粒子", 75, 8, 0, 0)
     })
     Enemy.addSKill(enemy, Enemy.sKind.skill, function (tempVar, sprite) {
-        for (let index = 0; index < 4; index++) {
-            playground_helpers.multishoot(sprite, 1, randint(-45, 45), 3, 0.1, "幽灵粒子", 75, 3, 0, 5)
+        for (let index = 0; index < 3; index++) {
+            playground_helpers.multishoot(sprite, 1, randint(-45, 45), 2, 0.1, "幽灵粒子", 75, 3, 0, 5)
         }
     })
     Enemy.dropWeapon(enemy, "小血瓶", 20)
