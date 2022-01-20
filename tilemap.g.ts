@@ -159,6 +159,18 @@ namespace myTiles {
 2.................2
 2222222222222222222
 `, [myTiles.transparency16,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterWest0,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenInnerNorthWest,sprites.dungeon.greenInnerNorthEast,sprites.dungeon.greenInnerSouthEast,sprites.dungeon.greenInnerSouthWest,sprites.dungeon.collectibleInsignia], TileScale.Sixteen);
+            case "dz_级别1":
+            case "级别1":return tiles.createTilemap(hex`0b000900020202020202020202020202010101010101010101020201010101010101010102020101010101010101010202010101010101010101020201010101010101010102020101010101010101010202010101010101010101020202020202020202020202`, img`
+2 2 2 2 2 2 2 2 2 2 2 
+2 . . . . . . . . . 2 
+2 . . . . . . . . . 2 
+2 . . . . . . . . . 2 
+2 . . . . . . . . . 2 
+2 . . . . . . . . . 2 
+2 . . . . . . . . . 2 
+2 . . . . . . . . . 2 
+2 2 2 2 2 2 2 2 2 2 2 
+`, [myTiles.transparency16,sprites.dungeon.darkGroundCenter,sprites.dungeon.floorDark4], TileScale.Sixteen);
         }
         return null;
     })
