@@ -6,10 +6,10 @@
         "device": "*",
         "maze-extension": "github:cubicbird/maze-extension#v0.1.11",
         "cubicbird-game-jam": "github:felixtsu/cubicbird-game-jam#v0.0.11",
-        "[youkun]MyKnight.Playground": "pub:54013-41643-11789-13545",
         "[ziheng]MyKnight.Playground": "pub:45834-33356-77316-81918",
         "[zhengheng]MyKnight.Playground": "pub:76363-44583-29137-07356",
-        "[chentian]MyKnight.Playground": "pub:31495-78812-93797-75536"
+        "[chentian]MyKnight.Playground": "pub:31495-78812-93797-75536",
+        "[youkun]MyKnight.Playground": "pub:97679-69276-01327-73241"
     },
     "files": [
         "main.blocks",
@@ -21,7 +21,8 @@
         "tilemap.g.jres",
         "tilemap.g.ts",
         "playground_helpers.ts",
-        "enemy_ghost.ts"
+        "enemy_ghost.ts",
+        "21winter_ext.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -40,5 +41,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
