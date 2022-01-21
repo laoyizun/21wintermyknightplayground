@@ -1,7 +1,8 @@
 //%icon="\uf152" color="#BCB0E0"
 //%blockNamespace="迷宫"
-namespace playground_helpers {
 
+namespace playground_helpers {
+    let n: number = 0
     export function randomshoot(sprite: Sprite, n: number, amn: number, offset: number, delay: number, projectile: string, smn: number, k: number, amx: number, smx: number, d: number) {
         if (k > 0) {
             for (let index = 0; index <= n; index++) {
@@ -41,24 +42,41 @@ namespace playground_helpers {
 
     function gamestart(character: string) {
         Player.createPlayer(character, 2, 2)
-        leveLsellect()
-        //Maze.newRandomMaze()
-        //Maze.newNextMaze("障碍世界")
+      //  leveLsellect()
+        
+      
     }
-    function gamestart2(character: string, maze: Maze.maze) {
-        Player.createPlayer(character, 2, 2)
-        Maze.newRandomMaze()
+    function gamestart2(map: string) {
+        Maze.newNextMaze(map)
     }
+
+
+    blockMenu.onMenuOptionSelected(function (option, index) {
+        blockMenu.setControlsEnabled(false)
+        blockMenu.closeMenu()
+        if (n == 0) {
+            gamestart(option)
+            n = 1
+            startPlayground()
+        }
+        else {
+            gamestart2(option)
+            n = 0
+        }
+    })
+    
     //%block="开始游戏"
     export function startPlayground() {
-        blockMenu.onMenuOptionSelected(function (option, index) {
-            blockMenu.setControlsEnabled(false)
-            blockMenu.closeMenu()
-            gamestart(option)
-        })
+    
         blockMenu.setControlsEnabled(false)
         pause(10)
-        blockMenu.showMenu(playground_helpers.getAllCharacters(), MenuStyle.Grid, MenuLocation.FullScreen)
+        if (n == 0) {
+            blockMenu.showMenu(playground_helpers.getAllCharacters(), MenuStyle.Grid, MenuLocation.FullScreen)
+            
+        }
+        else {
+            blockMenu.showMenu(maps, MenuStyle.Grid, MenuLocation.FullScreen)
+        }
         blockMenu.setControlsEnabled(true)
 
     }
@@ -72,7 +90,7 @@ function leveLsellect() {
     } else {
         let sellectNum = game.askForNumber("1-" + maps.length)
         if (sellectNum >= 1 && sellectNum <= maps.length) {
-            Maze.newNextMaze(maps[sellectNum-1])
+            Maze.newNextMaze(maps[sellectNum - 1])
         }
         else {
             Maze.newNextMaze("障碍世界")
