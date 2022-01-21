@@ -4,12 +4,12 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "maze-extension": "github:cubicbird/maze-extension#v0.1.11",
         "cubicbird-game-jam": "github:felixtsu/cubicbird-game-jam#v0.0.11",
-        "[ziheng]MyKnight.Playground": "pub:45834-33356-77316-81918",
-        "[zhengheng]MyKnight.Playground": "pub:76363-44583-29137-07356",
-        "[chentian]MyKnight.Playground": "pub:31495-78812-93797-75536",
-        "[youkun]MyKnight.Playground": "pub:97679-69276-01327-73241"
+        "maze-extension": "github:cubicbird/maze-extension#v0.2.0",
+        "[youkun]MyKnight.Playground": "pub:51440-26093-57826-09498",
+        "[ziheng]MyKnight.Playground": "pub:65055-25523-86411-21471",
+        "[chentian]MyKnight.Playground": "pub:68687-53651-67779-48745",
+        "[zhengheng]MyKnight.Playground": "pub:55127-87648-98169-45564"
     },
     "files": [
         "main.blocks",
@@ -41,5 +41,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }

@@ -709,11 +709,6 @@ Weapon.setWeapons("武器", function () {
         })
     })
 })
-/**
- * otherSprite.say("不痛", 500)
- * 
- * Bullet.bulletOwn(projectile).say("打不动", 500)
- */
 cubicbird_gamejam_titlescreen.drawIntro(" my knight 21winter ")
 myknight_youkun_dlc.youkun()
 myknight_ziheng_dlc.ziheng()

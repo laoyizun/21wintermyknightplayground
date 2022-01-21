@@ -56,7 +56,7 @@ Enemy.setMonsters0(function () {
             Enemy.skillAtk(enemy, 0)
         })
         Enemy.setActionM(monster, 0, function (enemy) {
-            tiles.placeOnTile(enemy, tiles.getTileLocation(randint(1, 9), randint(1, 7)))
+            tiles.placeOnTile(enemy, tiles.getTileLocation(randint(2, 8), randint(2, 6)))
             Enemy.stopMove(enemy)
         })
         Enemy.setActionM(monster, 3, function (enemy) {
