@@ -14,6 +14,23 @@
         ],
         "displayName": "lyk_地图1"
     },
+       "lzh_级别4": {
+        "id": "lzh_级别4",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDAyMDQwNDA0MDQwNDA0MDQwNDA0MDQwNDA0MDQwNDAzMDEwODA4MDgwODA4MDgwODA4MDgwODA4MDUwODA4MDUwMTA4MDgwODA4MDgwODA4MDgwODA1MDgwODA4MDgwNTAxMDIwNDA4MDQwMzA4MDgwODA4MDUwNTA1MDgwNTA1MDEwODA4MDgwODA1MDgwODA1MDgwODA4MDUwODA4MDUwMTA4MDgwODA4MDgwODA4MDgwNTA4MDgwNTA1MDgwNTAxMDgwODA4MDgwNTA4MDgwNTA4MDgwODA1MDgwODA1MDEwODA4MDgwODA2MDcwODA3MDMwMjA0MDQwNDAzMDUwMTA1MDUwNTA4MDgwODA4MDgwNTA4MDgwODA4MDgwNTAxMDgwODA1MDgwODA4MDgwODA4MDgwODA4MDgwODA1MDEwODA4MDUwNTA4MDgwODA4MDUwODA4MDgwODA4MDUwMTA4MDgwODA4MDgwODA4MDgwNTA4MDgwODA4MDgwNTAxMDIwNDA0MDQwNDA0MDQwMzAyMDQwNDAzMDgwODA1MDEwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDUwMTA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwNTAyMDQwNDA0MDQwNDA0MDQwNDA0MDQwNDA0MDQwNDAzMjIyMjIyMjIyMjIyMjIyMjAyMDAwMDAwMDAwMDAyMjAwMjAwMDAwMDAwMDIwMDIwMjIwMjIyMDAwMDIyMDIyMjAyMDAyMDAwMDIwMDAyMjAwMjAwMDAwMDIwMDAyMjIwMDIwMDIwMDAwMjAwMDIyMDAyMDAyMDAyMjIyMjIyMjIyMjIyMDAwMDIwMDAwMDIwMDIyMDAwMDAwMDAwMDAyMDAyMjAwMjAwMjAwMDAwMjAwMjAwMDAwMDIwMDAwMDIwMjIyMjIyMjIyMjIyMDIyMDAyMDAwMDAwMDAwMDAwMjAwMjAwMDAwMDAwMDAwMDIwMjIyMjIyMjIyMjIyMjIyMg==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.builtin.oceanSand0",
+            "sprites.builtin.oceanSand5",
+            "sprites.builtin.oceanSand3",
+            "sprites.builtin.oceanSand2",
+            "sprites.builtin.oceanSand4",
+            "sprites.builtin.oceanSand1",
+            "sprites.builtin.oceanSand6",
+            "sprites.dungeon.darkGroundCenter"
+        ],
+        "displayName": "lzh_地图4"
+    },
     "tct_级别2": {
         "id": "tct_级别2",
         "mimeType": "application/mkcd-tilemap",
