@@ -83,7 +83,7 @@ namespace playground_helpers {
 }
 
 //通关模式
-let maps = ["障碍世界", "迷宫世界", "花海", "神秘地带", "草原", "111", "神秘山洞", "神秘地图"]
+let maps = ["障碍世界", "迷宫世界", "花海","幽灵迷宫", "神秘地带", "草原", "111", "神秘山洞", "神秘地图"]
 function leveLsellect() {
     if (game.ask("是否需要选择关卡？", "A.从头开始 B.选择关卡")) {
         Maze.newNextMaze("障碍世界")
