@@ -14,7 +14,7 @@ Maze.setMaze(tilemap`幽灵迷宫`, "幽灵迷宫", function () {
         Maze.setMonstersMembers2("3幽灵", sprites.dungeon.darkGroundCenter)
     })
     Maze.nextPortal2(sprites.dungeon.darkGroundCenter)
-    Maze.nextMazeOfPortal(Maze.mazeKind.random)
+    Maze.nextMazeOfPortal(Maze.mazeKind.name, "神秘地带")
 })
 Player.setPlayer(img`
     . . . . . . f f f f . . . . . . 

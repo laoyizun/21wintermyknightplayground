@@ -47,7 +47,7 @@ Weapon.setWeapons("武器", function () {
         Weapon.setoffset(weapon, Character.dirKind.up, 2, 10)
         Weapon.setoffset(weapon, Character.dirKind.right, -5, 0)
         Weapon.weaponSkill(weapon, function (tempVar, sprite) {
-            Bullet.setHp(Player.spriteToPlayer(sprite), 15)
+            Bullet.setHp(Player.spriteToPlayer(sprite), 100)
             weapon.destroy()
         })
     })

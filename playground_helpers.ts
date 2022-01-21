@@ -41,7 +41,9 @@ namespace playground_helpers {
 
     function gamestart(character: string) {
         Player.createPlayer(character, 2, 2)
-        Maze.newRandomMaze()
+        leveLsellect()
+        //Maze.newRandomMaze()
+        //Maze.newNextMaze("障碍世界")
     }
     function gamestart2(character: string, maze: Maze.maze) {
         Player.createPlayer(character, 2, 2)
@@ -50,14 +52,30 @@ namespace playground_helpers {
     //%block="开始游戏"
     export function startPlayground() {
         blockMenu.onMenuOptionSelected(function (option, index) {
-                blockMenu.setControlsEnabled(false)
-                blockMenu.closeMenu()
-                gamestart(option) 
+            blockMenu.setControlsEnabled(false)
+            blockMenu.closeMenu()
+            gamestart(option)
         })
         blockMenu.setControlsEnabled(false)
         pause(10)
         blockMenu.showMenu(playground_helpers.getAllCharacters(), MenuStyle.Grid, MenuLocation.FullScreen)
         blockMenu.setControlsEnabled(true)
 
+    }
+}
+
+//通关模式
+let maps = ["障碍世界", "迷宫世界", "花海", "神秘地带", "草原", "111", "神秘山洞", "神秘地图"]
+function leveLsellect() {
+    if (game.ask("是否需要选择关卡？", "A.从头开始 B.选择关卡")) {
+        Maze.newNextMaze("障碍世界")
+    } else {
+        let sellectNum = game.askForNumber("1-" + maps.length)
+        if (sellectNum >= 1 && sellectNum <= maps.length) {
+            Maze.newNextMaze(maps[sellectNum-1])
+        }
+        else {
+            Maze.newNextMaze("障碍世界")
+        }
     }
 }

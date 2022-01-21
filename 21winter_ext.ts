@@ -44,6 +44,8 @@ Maze.setMaze(tilemap`dz_级别1`, "神秘地图", function () {
     Maze.setMazeMonsters(function () {
         Maze.setMonstersMembers("dzboss队", 5, 1)
     })
+    
+    //
     Maze.nextMazeOfPortal(Maze.mazeKind.random)
     Maze.nextPortal2(sprites.dungeon.darkGroundCenter)
 })
@@ -139,3 +141,4 @@ Bullet.setProjectiles("21winter", function() {
         })
     })
 })
+//————————————————//
